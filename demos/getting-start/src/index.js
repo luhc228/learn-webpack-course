@@ -1,3 +1,6 @@
+import pkgJSON from '../package.json';
+
+console.log(pkgJSON);
 function add(a, b) {
   return a + b;
 }
