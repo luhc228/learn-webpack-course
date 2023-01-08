@@ -12,7 +12,6 @@
     "webpack-cli": "^5.0.1"
   },
   "scripts": {
-    "dev": "webpack --env production",
     "build": "webpack"
   },
   "dependencies": {
