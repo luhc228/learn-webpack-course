@@ -1,6 +1,5 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom/client';
-import './index.css';
+import './greet.css';
 
 const Greet = () => {
   return (
@@ -14,5 +13,4 @@ const Greet = () => {
   )
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<Greet />)
+export default Greet;
